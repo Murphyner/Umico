@@ -33,7 +33,7 @@ async function getProductandCategory() {
                                                         <p class="text-[13px] h-[40px] overflow-hidden font-normal">${item.name}</p>
                                                     </div>
                                                     <div class="mb-2">
-                                                        <p class="text-[#9497ad] text-[11px]">Satıcı: <span class="ml-[2px] text-[#1e244d]">${item.marketing_name.name}</span></p>
+                                                        <p class="text-[#9497ad] w-[100px] overflow-hidden text-[11px]">Satıcı: <span class="ml-[2px] text-[#1e244d]">${item.marketing_name.name}</span></p>
                                                     </div>
                                                     <div class="border-t py-3">
                                                         <button onclick="addBasketArr(${item.id})" class="text-[#7c62e3] text-[12px] flex items-center font-bold">
