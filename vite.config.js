@@ -30,7 +30,6 @@ export default defineConfig({
         product: resolve(__dirname, 'product/index.html'),
         sebet: resolve(__dirname, 'sebet/index.html'),
         main: resolve(__dirname, 'src/main.js'),
-        swiper: resolve(__dirname, 'src/swiper.js'),
         actualCategory: resolve(__dirname, 'src/actual-category.js'),
         actualTags: resolve(__dirname, 'src/actual-tags.js'),
         allPage: resolve(__dirname, 'src/AllPage.js'),
