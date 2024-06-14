@@ -15,7 +15,7 @@ async function getProductandCategory() {
     titleProduct.innerHTML = products[0].category_name
     products[0].products.map(item => {
         productContainer ? productContainer.innerHTML += `<div class="2xl:mb-2 xl:mb-4 mb-2 size-6/12 md:size-4/12 lg:size-3/12 xl:size-2/12 px-1 2xl:px-1 xl:px-2 relative">
-                                        <div class="bg-white">
+                                        <div class="bg-white overflow-hidden">
                                             <button class="absolute top-[15px] right-[20px] z-[10]"><i class="far fa-heart"></i></button>
                                             <a class="block overflow-hidden">
                                                 <div class="relative sm:h-[186px] h-[124px] mb-2 bg-white flex justify-center p-5 pt-8">
