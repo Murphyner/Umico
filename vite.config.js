@@ -36,7 +36,6 @@ export default defineConfig({
         endirimSlide: resolve(__dirname, 'src/endirim-slide.js'),
         megaEndirim: resolve(__dirname, 'src/mega-endirim.js'),
         moreSale: resolve(__dirname, 'src/more-sale.js'),
-        // Diğer sayfalar ve dosyalar buraya eklenir
       },
       output: {
         entryFileNames: '[name]/assets/[name]-[hash].js',
@@ -44,10 +43,9 @@ export default defineConfig({
         assetFileNames: '[name]/assets/[name]-[hash][extname]'
       }
     },
-    outDir: 'dist' // Çıktı dizini
+    outDir: 'dist' 
   },
   css: {
-    // Ana stil dosyalarını (style.css ve input.css) ekleyin
     include: [
       './src/style.css',
       './src/input.css'
